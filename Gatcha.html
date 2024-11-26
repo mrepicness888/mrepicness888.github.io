@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Trials of Mikey</title>
+  <link rel="stylesheet" type="text/css" href="Gatcha.css">
+</head>
+<body>
+<a href="home.html" target="_blank">Back</a>
+<h1>To pass this trial you must pull a 5 star Mikey</h1>
+
+
+<button onclick = "randomImage(1)">One Pull</button>
+<button onclick = "randomImage(10)">Ten Pulls</button>
+<span id="gatchaResults" align ="center"> </span>
+
+<div class="grid-container"></div>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn"></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span> 
+    <div class = "modal-image"></div>
+  </div>
+
+</div>
+</body>
+<script type="text/javascript" src="Gatcha.js"></script>
+</html>
