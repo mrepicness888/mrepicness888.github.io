@@ -1,7 +1,7 @@
 const quizData = [
     {
       question: "What is the name of Mikeys brother?",
-      options: ["Tiffany", "Alex", "Andon", "Fish Michael"],
+      options: ["Tiffany", "Andon", "Alex", "Fish Michael"],
       answer: "Andon"
     },
     {
@@ -11,8 +11,28 @@ const quizData = [
     },
     {
       question: "What’s my favorite season of the year?",
-      options: ["Spring", "Summer", "Autumn", "Winter"],
+      options: ["Autumn", "Summer", "Spring", "Winter"],
       answer: "Autumn"
+    },
+    {
+      question: "Which type of snack do I enjoy the most?",
+      options: ["Chrips", "Chocolate", "Sweets", "Grace"],
+      answer: "Grace"
+    },
+    {
+      question: "Who is my first son?",
+      options: ["Mango", "Chicken", "Osshiwatt", "Grace"],
+      answer: "Mango"
+    },
+    {
+      question: "What champions do I have most mastery point in on league?",
+      options: ["Vel'koz", "Ekko", "Dr. Mundo", "Annie"],
+      answer: "Ekko"
+    },
+    {
+      question: "Which of these japanese foods do I enjoy the most?",
+      options: ["Sushi", "Ramen", "Onigiri", "Yakitori"],
+      answer: "Sushi"
     },
     {
       question: "What is the largest planet in our solar system?",
