@@ -65,6 +65,11 @@ const quizData = [
       answer: "Kim"
     },
     {
+      question: "What is my favorite condom type?",
+      options: ["Thin feel", "Flavored", "Thick Feel", "Ribbed and Dotted"],
+      answer: "Ribbed and Dotted"
+    },
+    {
       question: "Hard Question: What was the first anime I ever watched?",
       options: ["Highschool dxd", "The Royal Tutor", "Death Note", "Attack on Titan"],
       answer: "Death Note"

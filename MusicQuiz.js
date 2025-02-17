@@ -35,6 +35,12 @@ const quizData = [
       options: ["Plastic Love", "Stay with me", "Ride On Time", "Fragile"],
       answer: "Plastic Love"
     },
+    {
+      question: "Now to pop. What song is this?",
+      audio: "music/Idol.mp3",
+      options: ["Ride on Time", "Monster", "Racing into the Night", "Idol"],
+      answer: "Idol"
+    },
     // Add more questions here...
   ];
   
