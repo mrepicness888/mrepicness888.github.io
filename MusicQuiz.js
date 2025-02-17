@@ -18,6 +18,12 @@ const quizData = [
       answer: "Romeo and Cinedella"
     },
     {
+      question: "Actually lets stick with this genre shall we. What song is this?",
+      audio: "music/The_Lost_Ones_Weeping.mp3",
+      options: ["Romeo and Cinedella", "The Dissapearace of Miku", "Luka Luka Night Fever", "The Lost Ones Weeping"],
+      answer: "Romeo and Cinedella"
+    },
+    {
       question: "Back to Citypop. What song is this?",
       audio: "music/Fragile.mp3",
       options: ["Plastic Love", "Stay with me", "Ride On Time", "Fragile"],

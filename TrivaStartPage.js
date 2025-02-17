@@ -10,7 +10,7 @@ const quizData = [
       answer: "20"
     },
     {
-      question: "How old is Grace?",
+      question: "How old is Grace? (For leagal reasons this is a joke and the answer is 44)",
       options: ["82", "66", "44", "69"],
       answer: "44"
     },
@@ -18,6 +18,11 @@ const quizData = [
       question: "What's my favorite season of the year?",
       options: ["Autumn", "Summer", "Spring", "Winter"],
       answer: "Autumn"
+    },
+    {
+      question: "Who was my main in Valorant?",
+      options: ["Reyna", "Cypher", "Phenix", "Chamber"],
+      answer: "Reyna"
     },
     {
       question: "Which type of snack do I enjoy the most?",
@@ -43,6 +48,16 @@ const quizData = [
       question: "Where was my old house (the one I lived in before belvedere)?",
       options: ["Woolwich", "Croyden", "Abbey Wood", "Thamesmead"],
       answer: "Thamesmead"
+    },
+    {
+      question: "What steam game do I have the most hours on?",
+      options: ["Palworld", "Stellaris", "Black Desert Online", "Total War: Three Kingdoms"],
+      answer: "Black Desert Online"
+    },
+    {
+      question: "What was the first movie we watched (fully) together?  (Not Series)",
+      options: ["Pretty Women", "Rounders", "The Bee Movie"],
+      answer: "Rounders"
     },
     {
       question: "Hard Question: What the name of my badminton coach?",
