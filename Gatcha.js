@@ -1,31 +1,29 @@
 
 async function randomImage(pulls) {
-    const pics = [ 
-        "gatcha-images/2-star-fish-michael.jpg",
-        "gatcha-images/4-star-goofy-grace.jpg",
-        "gatcha-images/5-star-doggy-grace.png",
-        "gatcha-images/5-star-sexy-grace.jpg",
-
-    ]; 
 
     const twostar = ["gatcha-images/2-star-fish-michael.jpg",
     "gatcha-images/2-star-real-fishmichael.png",
-    "gatcha-images/2-star-mother-and-son.png"
+    "gatcha-images/2-star-mother-and-son.png",
+    "gatcha-images/2-star-angy-grace.png"
     ]
     const threestar = ["gatcha-images/3-star-sleeping-grace.png",
       "gatcha-images/3-star-mikey-with-children.png",
       "gatcha-images/3-star-glasses-grace.png"
     ]
     const fourstar = ["gatcha-images/4-star-goofy-grace.jpg",
-      "gatcha-images/4-star-gamer-chicken.png"
+      "gatcha-images/4-star-gamer-chicken.png",
+      "gatcha-images/4-star-heart-grace.png"
     ]
     const fivestar = ["gatcha-images/5-star-doggy-grace.png",
-      "gatcha-images/5-star-sexy-grace.jpg"]
+      "gatcha-images/5-star-sexy-grace.jpg",
+      "gatcha-images/5-star-michael.png"
+    ]
 
 
     document.getElementsByClassName("grid-container")[0].innerHTML='';
     var parentDIV = document.getElementsByClassName("grid-container")[0];
     var modal = document.getElementById("myModal");
+    var win = false
 
     for(var i=0;i<pulls;i++){
         var stararray = []
@@ -56,6 +54,10 @@ async function randomImage(pulls) {
         for(var s=0;s<starnum;s++){
           modalStars += '<span style="font-size:300%;color:yellow;">&#9733;</span>'
         }
+        if (number == 2 && stararray == fivestar){
+          win = true
+        }
+        
 
         modalStars += '</div>'
         var innerHTML= '<div class= "pull">'+ modalStars + '<img src="' + stararray[number]+'" /></div>'
@@ -63,6 +65,10 @@ async function randomImage(pulls) {
         tempDIV.innerHTML=innerHTML;
         parentDIV.appendChild(tempDIV);
         await sleep(1500)
+    }
+
+    if (win) {
+      alert("The second part of the code is 'Pie'")
     }
 }
 

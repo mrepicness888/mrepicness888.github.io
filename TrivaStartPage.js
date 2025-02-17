@@ -10,7 +10,12 @@ const quizData = [
       answer: "20"
     },
     {
-      question: "What’s my favorite season of the year?",
+      question: "How old is Grace?",
+      options: ["82", "66", "44", "69"],
+      answer: "44"
+    },
+    {
+      question: "What's my favorite season of the year?",
       options: ["Autumn", "Summer", "Spring", "Winter"],
       answer: "Autumn"
     },
@@ -21,7 +26,7 @@ const quizData = [
     },
     {
       question: "Who is my first son?",
-      options: ["Mango", "Chicken", "Osshiwatt", "Grace"],
+      options: ["Mango", "Chicken", "Oshawott", "Grace"],
       answer: "Mango"
     },
     {
@@ -30,9 +35,24 @@ const quizData = [
       answer: "Ekko"
     },
     {
-      question: "Which of these japanese foods do I enjoy the most?",
+      question: "Which of these japanese foods do I enjoy the most?", 
       options: ["Sushi", "Ramen", "Onigiri", "Yakitori"],
       answer: "Sushi"
+    },
+    {
+      question: "Where was my old house (the one I lived in before belvedere)?",
+      options: ["Woolwich", "Croyden", "Abbey Wood", "Thamesmead"],
+      answer: "Thamesmead"
+    },
+    {
+      question: "Hard Question: What the name of my badminton coach?",
+      options: ["Kendric", "Kim", "Kevin", "Ken"],
+      answer: "Kim"
+    },
+    {
+      question: "Hard Question: What was the first anime I ever watched?",
+      options: ["Highschool dxd", "The Royal Tutor", "Death Note", "Attack on Titan"],
+      answer: "Death Note"
     },
     {
       question: "What is the largest planet in our solar system?",
@@ -68,6 +88,9 @@ const quizData = [
   
     if (selectedButton.innerText === answer) {
       score++;
+    } else {
+      alert("wrong!!! Time to try again... From the beginning hehe")
+      window.location.reload();
     }
   
     currentQuestion++;
@@ -85,7 +108,7 @@ const quizData = [
       <p>Your score: ${score}/${quizData.length}</p>
     `;
     if (score == quizData.length){
-      quiz.innerHTML = `<p>anti fragile</p>`//password here
+      quiz.innerHTML = `<p>Congrats! The First part of the code is "Cutie"</p>`//password here
     }
     else{
       quiz.innerHTML = `<p>You must not know me that well, you got some wrong, try again</p>`
