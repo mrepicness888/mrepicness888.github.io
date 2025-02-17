@@ -21,7 +21,7 @@ const quizData = [
     },
     {
       question: "Who was my main in Valorant?",
-      options: ["Reyna", "Cypher", "Phenix", "Chamber"],
+      options: ["Reyna", "Cypher", "Deadlock", "Chamber"],
       answer: "Reyna"
     },
     {
