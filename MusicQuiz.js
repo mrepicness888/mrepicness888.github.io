@@ -86,7 +86,7 @@ const quizData = [
     {
       question: "Another Hard one. What song is this?",
       audio: "music/virus.mp3",
-      options: ["Beethoven Virus", "Beethoven - Moonlight Sonata", "Liszt - La Campanella", "Bad Apple"],
+      options: ["Beethoven Virus", "Beethoven - Moonlight Sonata", "Liszt - La Campanella", "KING"],
       answer: "Beethoven Virus"
     }, 
     // Add more questions here...
