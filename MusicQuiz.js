@@ -18,7 +18,7 @@ const quizData = [
       answer: "Romeo and Cinedella"
     },
     {
-      question: "Actually lets stick with this genre shall we. What song is this?",
+      question: "Actually lets stick with this genre shall we 2. What song is this?",
       audio: "music/The_Lost_Ones_Weeping.mp3",
       options: ["Romeo and Cinedella", "The Dissapearace of Miku", "Luka Luka Night Fever", "The Lost Ones Weeping"],
       answer: "The Lost Ones Weeping"
