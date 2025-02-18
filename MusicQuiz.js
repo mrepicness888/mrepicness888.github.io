@@ -47,6 +47,30 @@ const quizData = [
       options: ["Umberella", "Lovely", "Somewhere Only We Know", "Just the Two of Us"],
       answer: "Somewhere Only We Know"
     },
+    {
+      question: "Hard Questions now. What song is this?",
+      audio: "music/TheonlythingIknowforreal.mp3",
+      options: ["Bury The Light", "It has to be this Way", "The Only Thing I Know For Real", "Six trillion years and overnight story"],
+      answer: "The Only Thing I Know For Real"
+    }, 
+    {
+      question: "Another Hard one. What song is this?",
+      audio: "music/Overnight.mp3",
+      options: ["Bury The Light", "It has to be this Way", "The Only Thing I Know For Real", "Six trillion years and overnight story"],
+      answer: "Six trillion years and overnight story"
+    }, 
+    {
+      question: "Another Hard one. What song is this?",
+      audio: "music/Overnight.mp3",
+      options: ["Bury The Light", "It has to be this Way", "The Only Thing I Know For Real", "Six trillion years and overnight story"],
+      answer: "Six trillion years and overnight story"
+    }, 
+    {
+      question: "Another Hard one. What song is this?",
+      audio: "music/wrongnote.mp3",
+      options: ["Chopin - Etude Op. 25 No. 5", "Liszt - Hungarian Rhapsody No.  2", "Chopin - Fantaisie-Impromptu (Op. 66)", "Chopin - Ballade No. 1 in G Minor"],
+      answer: "Chopin - Etude Op. 25 No. 5"
+    }, 
     // Add more questions here...
   ];
   
