@@ -82,6 +82,12 @@ const quizData = [
       audio: "music/night.mp3",
       options: ["Bad Apple", "Tiny Little Adiantum", "Night of Nights", " Cirno's Perfect Math Class"],
       answer: "Night of Nights"
+    },
+    {
+      question: "Another Hard one. What song is this?",
+      audio: "music/virus.mp3",
+      options: ["Beethoven Virus", "Beethoven - Moonlight Sonata", "Liszt - La Campanella", "Bad Apple"],
+      answer: "Beethoven Virus"
     }, 
     // Add more questions here...
   ];
