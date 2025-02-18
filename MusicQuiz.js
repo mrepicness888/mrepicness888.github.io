@@ -41,6 +41,12 @@ const quizData = [
       options: ["Ride on Time", "Monster", "Racing into the Night", "Idol"],
       answer: "Idol"
     },
+    {
+      question: "Now to pop. What song is this?",
+      audio: "music/Keane_-_Somewhere_Only_We_Know_CeeNaija.com_.mp3",
+      options: ["Umberella", "Lovely", "Somewhere Only We Know", "Just the Two of Us"],
+      answer: "Somewhere Only We Know"
+    },
     // Add more questions here...
   ];
   
