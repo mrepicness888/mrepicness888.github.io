@@ -80,7 +80,7 @@ const quizData = [
       answer: "7"
     },
     {
-      question: "Hard Question: What was the first gatca game I ever played?",
+      question: "Hard Question: What was the first gatcha game I ever played?",
       options: ["Maplestory", "7 Deadly Sins", "Wethering Waves", "Dissidia Final Fantasy Opera Omnia"],
       answer: "Dissidia Final Fantasy Opera Omnia"
     },
