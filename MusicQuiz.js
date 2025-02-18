@@ -71,6 +71,18 @@ const quizData = [
       options: ["Chopin - Etude Op. 25 No. 5", "Liszt - Hungarian Rhapsody No.  2", "Chopin - Fantaisie-Impromptu (Op. 66)", "Chopin - Ballade No. 1 in G Minor"],
       answer: "Chopin - Etude Op. 25 No. 5"
     }, 
+    {
+      question: "Another Hard one. What song is this?",
+      audio: "music/tiny.mp3",
+      options: ["Bad Apple", "Tiny Little Adiantum", "Night of Nights", " Cirno's Perfect Math Class"],
+      answer: "Tiny Little Adiantum"
+    }, 
+    {
+      question: "Another Hard one. What song is this?",
+      audio: "music/night.mp3",
+      options: ["Bad Apple", "Tiny Little Adiantum", "Night of Nights", " Cirno's Perfect Math Class"],
+      answer: "Night of Nights"
+    }, 
     // Add more questions here...
   ];
   
