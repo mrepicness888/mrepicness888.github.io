@@ -75,7 +75,17 @@ const quizData = [
       answer: "Death Note"
     },
     {
-      question: "What is the largest planet in our solar system?",
+      question: "Hard Question: What was my RE GCSE grade?",
+      options: ["5", "6", "7", "8"],
+      answer: "7"
+    },
+    {
+      question: "Hard Question: What was the first gatca game I ever played?",
+      options: ["Maplestory", "7 Deadly Sins", "Wethering Waves", "Dissidia Final Fantasy Opera Omnia"],
+      answer: "Dissidia Final Fantasy Opera Omnia"
+    },
+    {
+      question: "General knowledge time!!! What is the largest planet in our solar system?",
       options: ["Jupiter", "Saturn", "Mars", "Earth"],
       answer: "Jupiter"
     },
